@@ -1,13 +1,15 @@
 package conexion;
 
-import puntoDos.Formulas;
 import puntoUno.*;
+import puntoDos.*;
+import puntoTres.*;
 
 public class Main {
 
 	public static void main(String[] args) {
 		puntoUno();
 		puntoDos();
+		puntoTres();
 	}
 	
 	public static void puntoUno() {
@@ -23,5 +25,10 @@ public class Main {
 		fm.formulaD();
 		fm.formulaE();
 		fm.formulaF();
+	}
+	
+	public static void puntoTres() {
+		Viaje vj = new Viaje();
+		vj.personas();
 	}
 }
