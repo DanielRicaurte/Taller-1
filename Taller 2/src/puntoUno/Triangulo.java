@@ -11,10 +11,10 @@ public class Triangulo {
 			double base = 0;
 			double A = 0;
 
-			System.out.print("Ingrese la ALtura del Triangulo: \n");
-			altura = entrada.nextInt();
+			System.out.print("Ingrese la Altura del Triangulo: \n");
+			altura = entrada.nextDouble();
 			System.out.print("Ingrese la Base del Triangulo: \n");
-			base = entrada.nextInt();
+			base = entrada.nextDouble();
 
 			A = (base * altura) / 2;
 

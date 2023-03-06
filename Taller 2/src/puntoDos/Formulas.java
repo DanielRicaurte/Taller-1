@@ -93,13 +93,14 @@ public class Formulas {
 			double y = 0;
 			double E = 0;
 
-			System.out.print("La formula a resolver es: 1/y-(1/x-2*y) \n");
+			System.out.print("La formula a resolver es: 1/y-(1/x-2^y) \n");
 			System.out.print("Ingrese el valor de X: \n");
 			x = entrada.nextInt();
 			System.out.print("Ingrese el valor de y: \n");
 			y = entrada.nextInt();
 
-			double division = 1 / (x - 2 * y);
+			double exponente = Math.pow(2, y);
+			double division = 1 / (x - exponente);
 			double resta = y - division;
 			E = 1 / resta;
 
